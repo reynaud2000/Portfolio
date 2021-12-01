@@ -1,4 +1,5 @@
-/* reset css */
+/*reset css*/
+
 html{
     font-size: 62.5%;
 }
@@ -26,6 +27,63 @@ fieldset{
 }
 *{
     box-sizing: border-box;
+} 
+
+/* class */
+
+.profil{
+    width: 8.6rem;
+    height: 7.4rem;
+    float: left;
 }
 
-/* theme de la page */
+
+figure{
+    display: block;
+    float: left;
+    padding: 0.10rem;
+}
+
+.Langage{
+    width: 10rem;
+    height: 10rem;
+    border: 1px #23282d solid;
+}
+.box{
+    float: left;
+    padding-top: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+
+}
+
+.align{
+    display:inline-block;
+    text-align: center;
+    margin-left: 15rem;
+   margin-right: 35rem;
+}
+
+/* block */
+
+
+h1{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    text-transform: capitalize;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
