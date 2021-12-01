@@ -38,30 +38,34 @@ fieldset{
 }
 
 
-figure{
-    display: block;
-    float: left;
-    padding: 0.10rem;
-}
-
 .Langage{
     width: 10rem;
     height: 10rem;
-    border: 1px #23282d solid;
+    border: 0.1rem #23282d solid;
 }
 .box{
+    margin-top: 2rem;
     float: left;
-    padding-top: 10rem;
-    padding-right: 10rem;
+    min-width: 50%;
+    min-height: 84rem;
     text-align: center;
 
 }
 
 .align{
-    display:inline-block;
+    
+    float: left;
+    min-height: 20rem;
+    min-width: 50%;
     text-align: center;
-    margin-left: 15rem;
-   margin-right: 35rem;
+    position: static;
+    
+}
+
+.center{
+    display: inline-block;
+    min-width: 100%;
+    text-align: center;
 }
 
 /* block */
@@ -71,11 +75,48 @@ h1{
     text-align: center;
 }
 
+header{
+
+    border-width: 0.1rem;
+    border-style: outset;
+    border-color: black;
+    overflow: hidden;
+
+}
+
+figure{
+    display: block;
+    min-width: 20%;
+    float: left;
+}
+
+h2{ 
+    position: relative;
+    bottom: 2rem;
+}
+
 footer{
     text-align: center;
     text-transform: capitalize;
     
     }
+
+section{
+    border-width: 0.1rem;
+    border-style: outset;
+    border-color: black;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+main{
+    border-width: 0.1rem;
+    border-style: outset;
+    border-color: black;
+    overflow: hidden;
+    margin-top: 5rem;
+}
 
 
 
