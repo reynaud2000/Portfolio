@@ -98,6 +98,7 @@ fieldset{
 }
 
 .center{
+
     display: inline-block;
     min-width: 100%;
     text-align: center;
@@ -107,17 +108,9 @@ fieldset{
 /* block */
 
 body{
+
     background-color: var(--background);
 }
-
-main{
-    border-width: 0.1rem;
-    border-style: outset;
-    border-color: transparent;
-    overflow: hidden;
-    min-height: 151.88rem;
-}
-
 
 header{
 
@@ -135,19 +128,15 @@ h1{
     text-align: center;
 }
 
-nav{
-    text-align: center;
-    
-}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     list-style-type: none;
     overflow: hidden;
-    position: -webkit-sticky; /* Safari */
+    background-color: var(--fond7);
     position: sticky;
     top: 0;
-    background-color: var(--fond7);
   }
   
 nav li {
@@ -163,7 +152,7 @@ nav li {
 nav  li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.4rem 1.6rem;
     text-decoration: none;
   }
   
@@ -171,6 +160,15 @@ nav  li a {
 nav li a:hover {
     background-color: var(--background);
   }
+
+main{
+    border-width: 0.1rem;
+    border-style: outset;
+    border-color: transparent;
+    overflow: hidden;
+    min-height: 151.88rem;
+}
+
 
 section{
     border-width: 0.1rem;
