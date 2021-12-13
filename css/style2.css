@@ -56,9 +56,12 @@ div{
 }
 header, div, a {
     text-align: center;
-    color: #ffff;
+    color: rgb(0, 0, 0);
 }
 
+h1, a {
+    color: rgb(255, 255, 255);
+}
 div, input{
     border-color: #222;
     border-width: 0.1rem;
