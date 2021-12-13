@@ -1,5 +1,6 @@
 /*reset css*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Varela+Round&display=swap');
+
 html{
     font-size: 62.5%;
 }
@@ -241,11 +242,26 @@ footer a:visited{
 
 
 /* responsive */
+
+
 @media screen and (max-width: 80.00rem){
 
+    header img{
+        position: static;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    
+    h1{
+        text-align: center;
+    }
     section{
-
         min-width: 42.8rem;
+    }
+
+    h3,h4,p,figure,ul,ol{
+        margin-top: 1rem;
+        text-align: left;
     }
 
     nav ul {
@@ -256,14 +272,19 @@ footer a:visited{
         
     }
       
-    nav li a {
+    nav li {
         display: block;
-        min-width: 42.8rem;
+        min-width: 100%;
+      }
+    
+      nav ul li a{
         color: white;
         text-decoration: none;
       }
       
-      /* Change the link color on hover */
+
+/* Change the link color on hover */
+
     nav li a:hover {
         background-color: var(--fond7);
         color: white;
@@ -271,7 +292,6 @@ footer a:visited{
 
     .center{
         display: block;
-        text-align: center;
         float: left;
         margin-top: 1rem;
         background-color: var(--fond7);
@@ -293,15 +313,49 @@ footer a:visited{
     }
 
     figure{
-        min-width: 42.8rem;
+        text-align: center;
+        min-width: 50%;
     }
 
+ 
+    figure figcaption p {
+        text-align: center;
+    }
+
+    figure[id = "linux"]{
+        min-width: 100%;
+    }
 
     .profil{
         padding-top: 1rem;
         width: 20rem;
         height: 17rem;
         float: left;
+    }
+
+    footer p{
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (orientation: landscape){
+
+    .box2{
+        min-height: 90.5rem;
+    }
+
+    .box{
+
+        min-height: 90.5rem;
+    }
+
+    .align{
+        min-width: 50%;
+    }
+    .align2{
+        min-width: 50%;
     }
 
 }

@@ -1,0 +1,124 @@
+/*reset css*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Varela+Round&display=swap');
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font: 1.6rem 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1,h2,h3,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+input,input[type="submit"], button{
+    border: 0;
+    background-color: transparent;
+    font-size: inherit;
+}
+
+a{
+    text-decoration: none;
+   
+    color: #222;
+}
+fieldset{
+    border: solid .1rem transparent;
+}
+*{
+    box-sizing: border-box;
+} 
+
+
+/*fonction*/
+
+:root{
+    --background:#292F33;
+    --fond3: #B0C4DE;
+    --soustitre:#CCD6DD;
+    --fond6:#ffffff;
+    --fond7:#4682B4;
+}
+
+/*block*/
+
+body{
+    background: #222;
+}
+
+div{
+    background : var(--fond7);
+}
+header, div, a {
+    text-align: center;
+    color: #ffff;
+}
+
+div, input{
+    border-color: #222;
+    border-width: 0.1rem;
+    border-style: outset;
+}
+
+
+
+div fieldset legend{
+    margin-top: 2rem;
+    min-width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+
+input[id = "nom"]{
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    min-width: 100%;
+    
+}
+input[value = "Envoyer"]{
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-width: 100%;
+    background-color: var(--fond3);
+    cursor: pointer;
+}
+
+input[id = "prénom"]{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    min-width: 100%;
+}
+
+
+footer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+footer a:hover{
+    color: var(--fond7);
+
+}
+
+footer a:visited{
+    columns: var(--fond7);
+}
