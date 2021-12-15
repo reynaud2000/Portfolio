@@ -82,7 +82,6 @@ fieldset{
     
     float: left;
     min-height: 25rem;
-    min-width: 50%;
     margin-top: 0.5rem;
     text-align: center;
     position: static;
@@ -93,7 +92,6 @@ fieldset{
 
     float: left;
     min-height: 25rem;
-    min-width: 50%;
     margin-top: 0.5rem;
     text-align: center;
     position: static;
@@ -254,6 +252,24 @@ footer a:visited{
 
 @media screen and (max-width: 80.00rem){
 
+    .box2{
+        min-width: 100%;
+    }
+
+    .box{
+        min-width: 100%;
+    }
+
+    .align2{
+
+        min-width: 100%;
+    }
+    
+    .align{
+        
+        min-width: 100%;
+    }
+
     header img{
         position: static;
         margin-left: 10rem;
@@ -289,6 +305,7 @@ footer a:visited{
         color: white;
         text-decoration: none;
       }
+    
       
 
 /* Change the link color on hover */
@@ -310,15 +327,6 @@ footer a:visited{
         background-color: var(--fond7);
     }
 
-    .align2{
-
-        min-width: 42.8rem;
-    }
-    
-    .align{
-        
-        min-width: 42.8rem;
-    }
 
     figure{
         text-align: center;
