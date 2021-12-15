@@ -1,7 +1,7 @@
 
 
 
-![screenshot](./asset/Capture.png)
+![screenshot](asset/Capture.png)
 
 [Lien vers le portfolio](https://reynaud2000.github.io/Portfolio/index.html "Lien vers le portfolio")
 
