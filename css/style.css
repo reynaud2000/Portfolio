@@ -202,6 +202,7 @@ h2[id= "expertises"]{
 }
 
 h2,h3, h4, h5, p, li, a{
+    padding-left: 0.9rem;
     color: var(--fond6);
 }
 
@@ -283,7 +284,7 @@ footer a:visited{
         min-width: 42.8rem;
     }
 
-    h3,h4,p,figure,ul,ol{
+    h3,h4,h5,p,figure,ul,ol{
         margin-top: 1rem;
         text-align: left;
     }
@@ -353,7 +354,6 @@ footer a:visited{
     footer p{
         text-align: center;
     }
-
 }
 
 
