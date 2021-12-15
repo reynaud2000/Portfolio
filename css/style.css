@@ -253,21 +253,7 @@ footer a:visited{
 
 @media screen and (max-width: 80.00rem){
 
-    .box2{
-        min-width: 100%;
-    }
-
-    .box{
-        min-width: 100%;
-    }
-
-    .align2{
-
-        min-width: 100%;
-    }
-    
-    .align{
-        
+    .box2, .box, .align2,.align {
         min-width: 100%;
     }
 
@@ -280,8 +266,9 @@ footer a:visited{
     h1{
         text-align: center;
     }
-    section{
-        min-width: 42.8rem;
+
+    h2[id= "expertises"]{
+        background-color: var(--fond7);
     }
 
     h3,h4,h5,p,figure,ul,ol{
@@ -302,16 +289,13 @@ footer a:visited{
         min-width: 100%;
       }
     
-      nav ul li a{
+    nav ul li a{
         color: white;
         text-decoration: none;
       }
-    
-      
 
-/* Change the link color on hover */
 
-    nav li a:hover {
+    nav li a:hover { /* Change the link color on hover */
         background-color: var(--fond7);
         color: white;
     }
@@ -324,10 +308,6 @@ footer a:visited{
         
     }
 
-    h2[id= "expertises"]{
-        background-color: var(--fond7);
-    }
-
     
     figure{
         text-align: center;
@@ -335,7 +315,6 @@ footer a:visited{
        
     }
 
- 
     figure figcaption p {
         text-align: center;
     }
