@@ -352,11 +352,12 @@ footer a:visited{
 @media screen and (orientation: landscape){
 
     .box2{
+        min-width: 50%;
         min-height: 101rem;
     }
 
     .box{
-
+        min-width: 50%;
         min-height: 101rem;
     }
 
